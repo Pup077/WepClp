@@ -1,3 +1,8 @@
+<?php
+include_once('./backEND/backEND/connect.php');
+$conn = new DB_con();
+?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="en">
 
@@ -382,20 +387,30 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-direction=""
             data-animation-delay="250">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-              <div class="rounded-circle" style="width: 200px;
-  height: 200px;
-  background-image: url(images/90bb5142fa56babf5fc45966d1c27e36_small.jpg);
-  background-position: 400px 500px;
-  margin: 0 auto;
-  border-radius: 50%;
-  overflow: hidden;">
-              </div>
-              <h4 class="u-custom-font u-font-montserrat u-text u-text-default u-text-2">&nbsp;​08 กันยายน&nbsp;</h4>
-              <p class="u-text u-text-3"> เทศบาลนครนครศรีธรรมราช ร่วมกับสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
-                จัดนิทรรศการ "Metaverse For All เทคโนโลยีสุดล้ำสู่โลกเสมือนจริง"...</p>
-              <a href="Conpate1.html"
+
+            <?php
+            $sql = $conn->fetchdata();
+            while ($row = mysqli_fetch_array($sql)) {
+
+            ?>
+
+<div class="rounded-circle" style="
+    width: 200px;
+    height: 200px;
+    background-image: url(<?php echo $row['img1']; ?>);
+    background-position: 1400px 600px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+  "></div>
+              <h4 class="u-custom-font u-font-montserrat u-text u-text-default u-text-2">&nbsp;<?php echo $row['newsName1']; ?>&nbsp;</h4>
+              <p class="u-text u-text-3"><?php echo $row['NewsMsg1']; ?></p>
+              <a href="Conpate1.php"
                 class="u-active-none u-border-1 u-border-active-palette-1-light-1 u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-dark-2 u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-1">more</a>
             </div>
+
+            
+
           </div>
           <div
             class="u-align-center u-border-9 u-border-no-bottom u-border-no-left u-border-no-right u-border-palette-4-light-2 u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-2"
@@ -456,6 +471,9 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
               <a href="https://nicepage.com/wysiwyg-html-editor"
                 class="u-active-none u-border-1 u-border-active-palette-1-light-1 u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-dark-2 u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-4">more</a>
             </div>
+
+            <?php } ?> 
+
           </div>
         </div>
       </div>
