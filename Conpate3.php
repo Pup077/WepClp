@@ -13,7 +13,7 @@ $conn = new DB_con();
     <meta name="description" content="">
     <title>ข่าวสาร 1</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-    <link rel="stylesheet" href="Compate1.css" media="screen">
+    <link rel="stylesheet" href="Compate3.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 5.2.4, nicepage.com">
@@ -65,7 +65,7 @@ $conn = new DB_con();
                     <ul class="u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
-                                href="Home.html" style="padding: 0px 20px;">หน้าแรก</a>
+                                href="index.php" style="padding: 0px 20px;">หน้าแรก</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
@@ -73,7 +73,7 @@ $conn = new DB_con();
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
-                                href="Contact.html" style="padding: 0px 20px;">ประชาสัมพันธ์</a>
+                                href="Contact.php" style="padding: 0px 20px;">ประชาสัมพันธ์</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
@@ -116,18 +116,17 @@ $conn = new DB_con();
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
 
             <?php
-  $sql = $conn->fetchdata();
+  $sql = $conn->fetchdata3();
   while ($row = mysqli_fetch_array($sql)) {
 
     ?>
 
             <h3 class="u-align-center u-text u-text-custom-color-3 u-text-default u-text-1">
-                <?php echo $row['newsName1']; ?></h3>
-            <img class="u-image u-image-default u-image-1" src=<?php echo $row['img1']; ?> alt="" data-image-width="900"
+                <?php echo $row['newsName3']; ?></h3>
+            <img class="u-image u-image-default u-image-1" src=<?php echo $row['img3']; ?> alt="" data-image-width="900"
                 data-image-height="675">
             <p class="u-align-left u-text u-text-default u-text-2">
-                <span style="font-weight: 700;"><?php echo $row['NewsMsg1']; ?>
-
+                <span style="font-weight: 700;"><?php echo $row['NewsMsg3']; ?>
         </div>
 
         <?php } ?>
