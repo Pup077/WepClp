@@ -82,6 +82,7 @@ $conn = new DB_con();
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
+                                href="./backEND/pages-login.php"
                                 style="padding: 0px 20px;">ลงชื่อเข้าสู่ระบบ</a>
                         </li>
                     </ul>
@@ -103,7 +104,7 @@ $conn = new DB_con();
                                         href="https://www.facebook.com/profile.php?id=100009439088255&paipv=0&eav=Afa1VSuKF2D7_vbrsIGC4Y9TIP6kwKNzkjjfKrlzGDhewMUmY5j4jzxUs73ZNdzbUZA&_rdr">ติดต่อ</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="">ลงชื่อเข้าสู่ระบบ</a>
+                                        href="./backEND/pages-login.php">ลงชื่อเข้าสู่ระบบ</a>
                             </ul>
                         </div>
                     </div>
