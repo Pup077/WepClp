@@ -11,7 +11,8 @@ $conn = new DB_con();
     <meta charset="utf-8">
     <meta name="keywords" content="Try this now!, Try this now!, Try this now!, Try this now!">
     <meta name="description" content="">
-    <title>Contact</title>
+    <title>ประชาสัมพันธ์</title>
+    <link rel="icon" type="image/png" href="./images/logo1.png" />
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Contact2.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -72,7 +73,7 @@ $conn = new DB_con();
                     <ul class="u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
-                                href="Home.html" style="padding: 0px 20px;">หน้าแรก</a>
+                                href="index.php" style="padding: 0px 20px;">หน้าแรก</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
@@ -80,7 +81,7 @@ $conn = new DB_con();
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
-                                href="Contact.html" style="padding: 0px 20px;">ประชาสัมพันธ์</a>
+                                href="Contact.php" style="padding: 0px 20px;">ประชาสัมพันธ์</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
@@ -89,7 +90,7 @@ $conn = new DB_con();
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-custom-color-2 u-text-black u-text-hover-custom-color-3"
-                                style="padding: 0px 20px;">ลงชื่อเข้าสู่ระบบ</a>
+                                href="" style="padding: 0px 20px;">ลงชื่อเข้าสู่ระบบ</a>
                         </li>
                     </ul>
                 </div>
@@ -98,17 +99,19 @@ $conn = new DB_con();
                         <div class="u-inner-container-layout u-sidenav-overflow">
                             <div class="u-menu-close"></div>
                             <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">หน้าแรก</a>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.php">หน้าแรก</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
                                         href="About.html">เกี่ยวกับ</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Contact.html">ประชาสัมพันธ์</a>
+                                        href="Contact.php">ประชาสัมพันธ์</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
                                         href="https://www.facebook.com/profile.php?id=100009439088255&paipv=0&eav=Afa1VSuKF2D7_vbrsIGC4Y9TIP6kwKNzkjjfKrlzGDhewMUmY5j4jzxUs73ZNdzbUZA&_rdr">ติดต่อ</a>
-                                </li>li class="u-nav-item"><a class="u-button-style u-nav-link">ลงชื่อเข้าสู่ระบบ</a>
+                                </li>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
+                                        href="./backEND/pages-login.php">ลงชื่อเข้าสู่ระบบ</a>
                                 </li>
                             </ul>
                         </div>
@@ -129,7 +132,7 @@ $conn = new DB_con();
             <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;">08 กันยายน 2565</h2>
             <h4 class="u-text u-text-default u-text-5">เทศบาลนครนครศรีธรรมราช
                 ร่วมกับสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง...</h4>
-            <a href="Conpate1.html" class="u-btn u-button-style" style="text-transform: uppercase;
+            <a href="Conpate1.html" class="u-btn u-button-style u-custom-color-2" style="text-transform: uppercase;
         margin: 22px auto 60px 39px;">เพึ่มเติม</a>
         </div>
     </section>
@@ -141,7 +144,7 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet u-sheet-1">
             <h2 class="u-text u-text-default u-text-1">24 สิงหาคม 2564</h2>
             <h4 class="u-text u-text-default u-text-5">เทศบาลเมืองคอน ประกาศ​เทศบาลนครนครศรีธรรมราช ประกาศปิด...</h4>
-            <a href="#" class="u-btn u-button-style u-btn-1">เพิ่มเติม</a>
+            <a href="#" class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
         </div>
     </section>
     <section class="u-clearfix u-section-5" id="sec-cc11">
@@ -152,7 +155,7 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet u-sheet-1">
             <h2 class="u-text u-text-default u-text-1">Try this now!</h2>
             <h4 class="u-text u-text-default u-text-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-            <a href="#" class="u-btn u-button-style u-btn-1">เพิ่มเติม</a>
+            <a href="#" class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
         </div>
     </section>
     <section class="u-clearfix u-section-7" id="sec-e8e1">
@@ -163,12 +166,12 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet u-sheet-1">
             <h2 class="u-text u-text-default u-text-1">Try this now!</h2>
             <h4 class="u-text u-text-default u-text-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-            <a href="#" class="u-btn u-button-style u-btn-1">เพิ่มเติม</a>
+            <a href="#" class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
         </div>
     </section>
     <section class="u-clearfix u-section-9" id="sec-a1a9">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="Contact2.html"
+            <a href="#"
                 class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-custom-color-3 u-hover-custom-color-4 u-radius-2 u-btn-1">Next&nbsp;<span
                     class="u-icon u-text-white"><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px"
                         style="width: 1em; height: 1em;">
@@ -176,7 +179,7 @@ $conn = new DB_con();
                             d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068 c-7.792,7.829-7.762,20.492,0.067,28.284L443.558,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h423.557 l-70.162,69.824c-7.829,7.792-7.859,20.455-0.067,28.284c7.793,7.831,20.457,7.858,28.285,0.068l104.504-104 c0.006-.006,0.011-.013,0.018-.019C513.968,262.339,513.943,249.635,506.134,241.843z">
                         </path>
                     </svg><img></span>
-                <a href="Contact.html"
+                <a href="Contact.php"
                     class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-custom-color-3 u-hover-custom-color-4 u-radius-2 u-btn-1"><span
                         class="u-file-icon u-icon u-text-white"><img src="images/545680-fb62a780.png"
                             alt=""></span>&nbsp;Back

@@ -11,7 +11,8 @@ $conn = new DB_con();
     <meta charset="utf-8">
     <meta name="keywords" content="Try this now!, Try this now!, Try this now!, Try this now!">
     <meta name="description" content="">
-    <title>Contact</title>
+    <title>ประชาสัมพันธ์</title>
+    <link rel="icon" type="image/png" href="./images/logo1.png" />
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Contact.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -139,7 +140,7 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet" style="min-height: 388px;">
             <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;"><?php echo $row['newsName1']; ?></h2>
             <h4 class="u-text u-text-default u-text-5"><?php echo $NewsMsg1; ?></h4>
-            <a href="Conpate1.php?id=<?php echo $row['news1_id'];?> " class="u-btn u-button-style" style="text-transform: uppercase;
+            <a href="Conpate1.php?id=<?php echo $row['news1_id'];?> " class="u-btn u-button-style u-custom-color-2" style="text-transform: uppercase;
         margin: 22px auto 60px 39px;">เพึ่มเติม</a>
         </div>
 
@@ -163,7 +164,7 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet" style="min-height: 388px;">
             <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;"><?php echo $row['newsName2']; ?></h2>
             <h4 class="u-text u-text-default u-text-5"><?php echo $NewsMsg2; ?></h4>
-            <a href="Conpate2.php?id=<?php echo $row['news2_id'];?>" class="u-btn u-button-style"
+            <a href="Conpate2.php?id=<?php echo $row['news2_id'];?>" class="u-btn u-button-style u-custom-color-2"
                 style="text-transform: uppercase; margin: 22px auto 60px 39px;">เพิ่มเติม</a>
         </div>
 
@@ -187,7 +188,7 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet" style="min-height: 388px;">
             <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;"><?php echo $row['newsName3']; ?></h2>
             <h4 class="u-text u-text-default u-text-5"><?php echo $NewsMsg3; ?></h4>
-            <a href="Conpate3.php?id=<?php echo $row['news3_id']; ?>" class="u-btn u-button-style u-btn-1">เพิ่มเติม</a>
+            <a href="Conpate3.php?id=<?php echo $row['news3_id']; ?>" class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
         </div>
 
         <?php } ?>
@@ -210,7 +211,7 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet" style="min-height: 388px;">
             <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;"><?php echo $row['newsName4']; ?></h2>
             <h4 class="u-text u-text-default u-text-5"><?php echo $NewsMsg4; ?></h4>
-            <a href="Conpate4.php?id=<?php echo $row['news4_id']; ?>" class="u-btn u-button-style u-btn-1">เพิ่มเติม</a>
+            <a href="Conpate4.php?id=<?php echo $row['news4_id']; ?>" class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
         </div>
 
         <?php } ?>
@@ -218,7 +219,7 @@ $conn = new DB_con();
     </section>
     <section class="u-clearfix u-section-9" id="sec-a1a9">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="Contact2.html"
+            <a href="Contact2.php"
                 class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-custom-color-3 u-hover-custom-color-4 u-radius-2 u-btn-1">Next&nbsp;<span
                     class="u-icon u-text-white"><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px"
                         style="width: 1em; height: 1em;">

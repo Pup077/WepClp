@@ -12,7 +12,8 @@ $conn = new DB_con();
     <meta name="keywords"
         content="​Traveling is a unique life experience, Destinations to Inspire Adventure, The Air Smells Ocean, ​We are the best travel agency to improve your deals, About Agency">
     <meta name="description" content="">
-    <title>Home</title>
+    <title>หน้าแรก</title>
+    <link rel="icon" type="image/png" href="./images/logo1.png" />
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>

@@ -12,6 +12,7 @@ $conn = new DB_con();
     <meta name="keywords" content="เกี่ยวกับอุทยานการเรียนรู้ (CLP), แผนที่อุทยานการเรียนรู้ (CLP)">
     <meta name="description" content="">
     <title>ข่าวสาร 1</title>
+    <link rel="icon" type="image/png" href="./images/logo1.png" />
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Compate1.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -103,7 +104,7 @@ $conn = new DB_con();
                                         href="https://www.facebook.com/profile.php?id=100009439088255&paipv=0&eav=Afa1VSuKF2D7_vbrsIGC4Y9TIP6kwKNzkjjfKrlzGDhewMUmY5j4jzxUs73ZNdzbUZA&_rdr">ติดต่อ</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="">ลงชื่อเข้าสู่ระบบ</a>
+                                        href="./backEND/pages-login.php">ลงชื่อเข้าสู่ระบบ</a>
                             </ul>
                         </div>
                     </div>

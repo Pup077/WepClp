@@ -11,7 +11,8 @@ $conn = new DB_con();
     <meta charset="utf-8">
     <meta name="keywords" content="เกี่ยวกับอุทยานการเรียนรู้ (CLP), แผนที่อุทยานการเรียนรู้ (CLP)">
     <meta name="description" content="">
-    <title>ข่าวสาร 1</title>
+    <title>ข่าวสาร 2</title>
+    <link rel="icon" type="image/png" href="./images/logo1.png" />
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Compate2.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
