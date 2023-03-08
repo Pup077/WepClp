@@ -122,9 +122,7 @@ $conn = new DB_con();
         </div>
     </header>
     <section class="u-clearfix u-section-1" id="sec-5e0c">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <h3 class="u-align-center u-text u-text-custom-color-4 u-text-default u-text-1">ประชาสัมพันธ์</h3>
-        </div>
+
     </section>
 
     <?php
@@ -140,7 +138,8 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet" style="min-height: 388px;">
             <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;"><?php echo $row['newsName1']; ?></h2>
             <h4 class="u-text u-text-default u-text-5"><?php echo $NewsMsg1; ?></h4>
-            <a href="Conpate1.php?id=<?php echo $row['news1_id'];?> " class="u-btn u-button-style u-custom-color-2" style="text-transform: uppercase;
+            <a href="Conpate1.php?id=<?php echo $row['news1_id'];?> " class="u-btn u-button-style u-custom-color-2"
+                style="text-transform: uppercase;
         margin: 22px auto 60px 39px;">เพึ่มเติม</a>
         </div>
 
@@ -188,7 +187,8 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet" style="min-height: 388px;">
             <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;"><?php echo $row['newsName3']; ?></h2>
             <h4 class="u-text u-text-default u-text-5"><?php echo $NewsMsg3; ?></h4>
-            <a href="Conpate3.php?id=<?php echo $row['news3_id']; ?>" class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
+            <a href="Conpate3.php?id=<?php echo $row['news3_id']; ?>"
+                class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
         </div>
 
         <?php } ?>
@@ -211,7 +211,8 @@ $conn = new DB_con();
         <div class="u-align-center u-clearfix u-sheet" style="min-height: 388px;">
             <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;"><?php echo $row['newsName4']; ?></h2>
             <h4 class="u-text u-text-default u-text-5"><?php echo $NewsMsg4; ?></h4>
-            <a href="Conpate4.php?id=<?php echo $row['news4_id']; ?>" class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
+            <a href="Conpate4.php?id=<?php echo $row['news4_id']; ?>"
+                class="u-btn u-button-style u-custom-color-2 u-btn-1">เพิ่มเติม</a>
         </div>
 
         <?php } ?>
@@ -234,8 +235,8 @@ $conn = new DB_con();
                         <div class="u-container-style u-layout-cell u-right-cell u-size-34 u-layout-cell-1">
                             <div class="u-container-layout u-container-layout-1">
                                 <h4 class="u-text u-text-1">ติดต่อสอบภาม</h4>
-                                <p class="u-custom-font u-font-montserrat u-text u-text-2"> Want to be the first to read
-                                    our news? Subscribe to the newsletter to keep abreast of all events.</p>
+                                <p class="u-custom-font u-font-montserrat u-text u-text-2">
+                                    ติดต่อสอบถามปัญหาการใช้งานเว็ปไซต์ได้ตลอด 24 ชั่วโมง.</p>
                                 <div class="u-expanded-width u-form u-form-1">
                                     <form action="https://forms.nicepagesrv.com/Form/Process"
                                         class="u-clearfix u-form-horizontal u-form-spacing-9 u-inner-form"
