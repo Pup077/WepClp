@@ -218,10 +218,37 @@ $conn = new DB_con();
         <?php } ?>
 
     </section>
+    <section class="u-clearfix u-section-1" id="sec-5e0c">
+    <br>
+    <br>
+    </section>
+
+    <?php
+  $sql = $conn->fetchdata5();
+  while ($row = mysqli_fetch_array($sql)) {
+    $NewsMsg5 = substr($row['NewsMsg5'], 0, 252);
+    // Use the $NewsMsg1 variable in your code here
+  
+?>
+
+
+    <section class="u-align-center u-clearfix u-image u-shading" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(<?php echo $row['img5']; ?>);
+    background-position: 50% 50%;" src="" data-image-width="900" data-image-height="675" id="sec-faba">
+        <div class="u-align-center u-clearfix u-sheet" style="min-height: 388px;">
+            <h2 class="u-text u-text-default" style="margin: 107px auto 0 31px;"><?php echo $row['newsName5']; ?></h2>
+            <h4 class="u-text u-text-default u-text-5"><?php echo $NewsMsg5; ?></h4>
+            <a href="Conpate5.php?id=<?php echo $row['news5_id']; ?>" class="u-btn u-button-style u-custom-color-2" style="text-transform: uppercase;
+        margin: 22px auto 60px 39px;">เพึ่มเติม</a>
+        </div>
+
+        <?php } ?>
+
+    </section>
+    
     <section class="u-clearfix u-section-9" id="sec-a1a9">
         <div class="u-clearfix u-sheet u-sheet-1">
             <a href="Contact2.php"
-                class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-custom-color-3 u-hover-custom-color-4 u-radius-2 u-btn-1">Next&nbsp;<span
+                class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-custom-color-3 u-hover-custom-color-4 u-radius-2 u-btn-1">ข่าวทั้งหมด&nbsp;<span
                     class="u-icon u-text-white"><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px"
                         style="width: 1em; height: 1em;">
                         <path
