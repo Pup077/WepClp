@@ -117,7 +117,7 @@ $conn = new DB_con();
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
 
             <?php
-  $sql = $conn->fetchdata();
+  $sql = $conn->fetchonerecord($_GET['id']);
   while ($row = mysqli_fetch_array($sql)) {
 
     ?>

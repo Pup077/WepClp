@@ -46,11 +46,7 @@ $conn = new DB_con();
     <meta property="og:type" content="website">
 </head>
 
-<body class="u-body u-xl-mode" data-lang="en" style=
-        "background-color: #f5f5f5;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-      }">
+<body class="u-body u-xl-mode" data-lang="en">
     <header class="u-clearfix u-header u-header" id="sec-49fd">
         <div class="u-clearfix u-sheet u-sheet-1">
             <a href="Home.html" class="u-image u-logo u-image-1" data-image-width="80" data-image-height="40">
@@ -249,11 +245,7 @@ $conn = new DB_con();
         <?php } ?>
 
     </section>
-    <section class="u-clearfix u-section-9" id="sec-a1a9" style=
-        "background-color: #F5F5F5;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-      }">
+    <section class="u-clearfix u-section-9" id="sec-a1a9" style=" background-color: #F5F5F5;">
         <div class="u-clearfix u-sheet u-sheet-1" >
 
             <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
